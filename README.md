@@ -104,41 +104,8 @@ Instead of comparing raw pixels, the system learns rich semantic representations
 
 # 🏗️ Project Architecture
 
-```text
-                User
-                  │
-                  ▼
-        Streamlit Web Application
-                  │
-                  ▼
-           Upload Fashion Image
-                  │
-                  ▼
-          Image Preprocessing
-                  │
-                  ▼
-      Pre-trained ResNet50 Network
-                  │
-                  ▼
-      Global Max Pooling Operation
-                  │
-                  ▼
-      2048-Dimensional Feature Vector
-                  │
-                  ▼
-      Feature Embedding Comparison
-                  │
-                  ▼
-      K-Nearest Neighbour Retrieval
-                  │
-                  ▼
-      Top-5 Similar Recommendations
-                  │
-                  ▼
-          Recommendation Display
-```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d6a7a2b0-1cdc-46f0-80fe-5ef88222eb44" />
 
----
 
 # 🛠️ Technology Stack
 
