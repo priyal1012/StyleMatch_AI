@@ -60,7 +60,7 @@ Once an image is uploaded, the recommendation engine extracts its visual represe
 * 📂 Large Fashion Image Repository
 * 💻 User-Friendly Interface
 
----
+
 
 # 🎯 Problem Statement
 
@@ -72,36 +72,7 @@ StyleMatch AI addresses this challenge by implementing an intelligent visual rec
 
 Instead of comparing raw pixels, the system learns rich semantic representations of images and performs recommendation through feature similarity, enabling efficient and accurate visual product discovery.
 
----
 
-# 🚀 System Workflow
-
-```text
-                Upload Fashion Image
-                         │
-                         ▼
-                Image Preprocessing
-                         │
-                         ▼
-       Pre-trained ResNet50 Feature Extractor
-                         │
-                         ▼
-          2048-Dimensional Feature Embedding
-                         │
-                         ▼
-             Feature Vector Normalization
-                         │
-                         ▼
-         K-Nearest Neighbour Similarity Search
-                         │
-                         ▼
-       Retrieve Top-5 Similar Fashion Products
-                         │
-                         ▼
-          Recommendation Visualization
-```
-
----
 
 # 🏗️ Project Architecture
 
@@ -122,7 +93,7 @@ Instead of comparing raw pixels, the system learns rich semantic representations
 | Machine Learning        | Scikit-Learn |
 | Web Framework           | Streamlit    |
 
----
+
 
 # 🧠 Methodology
 
@@ -132,13 +103,13 @@ The recommendation pipeline consists of multiple sequential stages designed to t
 
 The user uploads an image of a fashion product through the Streamlit web interface.
 
----
+
 
 ### 2. Image Preprocessing
 
 The uploaded image is resized to **224 × 224** pixels and preprocessed to match the input format expected by the pre-trained ResNet50 architecture.
 
----
+
 
 ### 3. Deep Feature Extraction
 
