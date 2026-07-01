@@ -36,7 +36,8 @@ Instead of depending upon textual descriptions, manually assigned product tags, 
 The system supports multiple fashion categories including:
 
 * 👕 T-Shirts
-* 👖 Shirts
+* 👔 Shirts
+* 👖 Pants
 * 👟 Shoes
 * ⌚ Watches
 * 👗 Sarees
