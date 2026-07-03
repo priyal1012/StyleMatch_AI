@@ -40,7 +40,7 @@ The system supports multiple fashion categories including:
 * 👖 Pants
 * 👟 Shoes
 * ⌚ Watches
-* 👗 Saree
+* 👗 Sarees
 * 👜 Fashion Accessories
 
 Once an image is uploaded, the recommendation engine extracts its visual representation using a **pre-trained ResNet50 model**, generates a **2048-dimensional feature embedding**, compares it against feature embeddings of every product present in the dataset, and finally returns the **Top-5 most visually similar products**.
